@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Venue</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-event">
+            <a href="intex.html" class="header-event-logo">Styles Conference</a>
+            <div class="header-event-desc">
+                <h2 class="header-event-desc-title">August 24–26th — Chicago, IL</h2>
+                <nav class="header-event-desc-nav">
+                    <div class="header-event-desc-nav-topnav" id="myTopnav">
+                        <a href="index.html" class="header-event-desc-nav-topnav-active">Home</a>
+                        <a href="Speakers.html">Speakers</a>
+                        <a href="Schedule.html">Schedule</a>
+                        <a href="Venue.html">Venue</a>
+                        <a href="Register.html">Register</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                
+                    <script>
+                        function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "header-event-desc-nav-topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "header-event-desc-nav-topnav";
+                        }
+                        }
+                    </script>
+                </nav>
+            </div>
+        </div> 
+    </header>
+    <section class="speakers-introduction">
+        <h2>Venue</h2>
+        <p>The conference is held at The Chicago Theatre, a beautiful historical landmark. The conference hotel, Four Seasons, is a short walk away down State Street.</p>
+    </section>
+    <section class="location">
+        <section class="location-info">
+            <h3>Chicago Theatre</h3>
+            <article>
+                <p>175 N State St</p>
+                <p>Chicago, IL 60601</p>
+            </article>
+            <article>
+                <a href="https://www.msg.com/the-chicago-theatre?cmp=van_chicagotheatre">thechicagotheatre.com</a>
+                <p>(312) 462-6300</p>
+            </article>
+        </section>
+        <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2ca55810a493%3A0x4700ddf60fcbfad6!2schicago+theatre!5e0!3m2!1sen!2sus!4v1388701393606"></iframe>
+    </section>
+    <section class="location">
+        <section class="location-info">
+            <h3>Four Seasons</h3>
+            <article>
+                <p>120 E Delaware PI</p>
+                <p>Chicago, IL 60611</p>
+            </article>
+            <article>
+                <a href="https://www.fourseasons.com/">fourseasons.com</a>
+                <p>(312) 280-8800</p>
+            </article>
+        </section>
+        <iframe class="location-map" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJfaT9dlTTD4gR4Gda1tssAao&amp;key=AIzaSyAeTEJ75nZTKQSN8HhKAzBNJzLGYKTPAJU"></iframe>
+    </section>
+    <footer class="footer">
+        <div class="footer-bar">
+            <h5 class="footer-bar-name">© Styles Conference</h5>
+            <nav class="footer-bar-links">
+                <a href="index.html">Home</a>
+                <a href="Speakers.html">Speakers</a>
+                <a href="Schedule.html">Schedule</a>
+                <a href="Venue.html">Venue</a>
+                <a href="Register.html">Register</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
